@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Mohammed Madi - Portfolio</title>
+<title>Mohammed Madi - Resume</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -10,7 +10,7 @@
 
 <body >
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-xxsmall w3-hide-small w3-center w3-grey">
+<nav class="w3-sidebar w3-bar-block w3-xxsmall w3-hide-small w3-center" id = "leftBar">
   <a href="#" class="w3-bar-item w3-button w3-padding-large">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -32,10 +32,10 @@
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:20% !important">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:23% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:23% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
   </div>
 </div>
 
@@ -43,8 +43,9 @@
 <div id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo">Mohammed Madi.</h1>
-    <p>Bsc Artificial intelligence student.</p>
+    <h1 class="w3-jumbo w3-padding-16 w3-hide-small">Mohammed Madi.</h1>
+    <h1 class="w3-xxlarge w3-padding-16 w3-hide-medium w3-hide-large">Mohammed Madi.</h1>
+    <h3>Bsc Artificial intelligence student at the University of Manchester.</h3>
     <form method="get" action="CV_AI.pdf" target="_blank">
     <button class="w3-button w3-white w3-padding-large w3-section" type="submit">
       <i class="fa fa-download"></i> Download Resume
@@ -56,13 +57,70 @@
   <div class="w3-content w3-justify w3-text-white w3-padding-64" id="about">
     <h2>Education</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-    <h3 class="w3-padding-16">My Skills</h3>
-  
-    <!-- Grid for photos -->
+      <ul>
+        <li> <h5>Bsc Artificial intelligence (2019-2022) - The University of Manchester</h5>
+          <p>Currently in second year. Modules taught cover
+          programming in different languages and in
+          team environments, as well as theoretical
+          computer science.</p> </li>
+        <li> <h5>International foundation year in
+          science and engineering (2018-2019) - INTO Manchester.</h5>
+          <p><h6>Chemistry: 93. Math: 93. Physics: 80 RCS: 63.</h6>
+            RCS is short for research and communication
+            skills and is a module given to students with
+            IELTS scores higher than 7.5 and consists of a
+            research assignment and a presentation. RCS
+            also involved guidance on using academic
+            articles and essay structure.</p> </li>
+        <li> <h5>Tawjihi (General Secondary Education Certificate) (2013-2018) - Al Jazeera School</h5>
+          <p><h6>Average: 92.2% (Scientific stream).</h6>
+          <p>Grades 8 to 12 were studied at
+             a private school in Amman, Jordan. 
+             The curriculum studied was the Jordanian curriculum 
+             which is comparable to A-levels in difficulty.</p> </li>
+    </ul><br>
+
+    <h2>My Skills</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <ul>
+      <li><h5>Programming Languages: Python, C#, Java, JavaScript, R, MatLab,
+        PHP, SQL, MySQL.</li>
+      <li><h5>Other: Teamwork, Time management, Jupyter, Unity,
+        Blender, HTML, CSS, Data visualisation, Git, WordPress.</h5></li>
+    </ul><br>
+
+    <h2>Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <ul>
+      <li><h5>FlickFinder (Sep 2019 – May 2020)</h5>
+        My first year team project, a web
+        application that recommends movies
+        based on a user's ratings of previous
+        movies they watched.
+        The project used machine learning
+        (singular value decomposition and
+        matrix factorisation) for the
+        recommender system as well as
+        Django , javascript, HTML, CSS and
+        Git.</li>
+      <li><h5>Other: Teamwork, Time management, Jupyter, Unity,
+        Blender, HTML, CSS, Data visualisation, Git, WordPress.</h5></li>
+    </ul><br>
+
+
+    <h2>Volunteering</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <ul>
+      <li><h5>Behati foundation (July 2020 – Present) - Website developer.</h5>
+        Volunteering as a website developer for a
+        charity that helps provide better education for
+        children in Africa.
+        The website uses WordPress
+        and can be found at <a href= "behatifoundation.org" style="text-decoration-line: underline;">behatifoundation.org</a></li>
+      <li><h5>Other: Teamwork, Time management, Jupyter, Unity,
+        Blender, HTML, CSS, Data visualisation, Git, WordPress.</h5></li>
+    </ul>
+    
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
         <img src="/w3images/wedding.jpg" style="width:100%">
@@ -95,9 +153,8 @@
   
   <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-github w3-hover-opacity w3-xxlarge"><a href = "https://github.com/great-code-madim"> </a></i>
-    <i class="fa fa-instagram w3-hover-opacity w3-xxlarge"></i>
-    <i class="fa fa-linkedin w3-hover-opacity w3-xxlarge" href = "https://www.linkedin.com/in/mohammed-madi-178b39192/"></i>
+    <a class="fa fa-github w3-hover-opacity w3-xxlarge" href = "https://github.com/great-code-madim"></a>
+    <a class="fa fa-linkedin w3-hover-opacity w3-xxlarge" href = "https://www.linkedin.com/in/mohammed-madi-178b39192/"></a>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
   </footer>
