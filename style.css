@@ -33,12 +33,13 @@ body {
 }
 
 #leftBar {
-    background-color: grey;
+    background-color: rgb(97, 107, 117);
     background-size: cover;
 }
 
 #about li{
     list-style: disc;
+    padding: 1.5%;
 }
 
 html {
@@ -55,6 +56,9 @@ html {
     margin: 20px 2%;
   }
 
+  #download{ 
+      background-color: rgb(55, 80, 80);
+    }
   
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit;}
   h1 {font-size: 36px}
