@@ -33,7 +33,7 @@ body {
 }
 
 #leftBar {
-    background-color: rgb(97, 107, 117);
+    background-color: #616B75;
     background-size: cover;
 }
 
@@ -57,7 +57,7 @@ html {
   }
 
   #download{ 
-      background-color: rgb(55, 80, 80);
+      background-color: #375050;
     }
   
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit;}
